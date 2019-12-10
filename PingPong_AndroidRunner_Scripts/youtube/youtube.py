@@ -14,13 +14,10 @@ def usage():
 def main():
         if len(sys.argv) != 1:
                 usage()
-
         print "waiting for connection..."
         device = MonkeyRunner.waitForConnection()
-
         print "installing youtube"
         device.installPackage(YOUTUBE)
-
         device.startActivity(component="com.google.android.youtube/.HomeActivity")
         MonkeyRunner.sleep(3)
         # search
@@ -29,7 +26,5 @@ def main():
         device.type('android')
         # done
         device.touch(450, 740, MonkeyDevice.DOWN_AND_UP)
-
-
 
 
