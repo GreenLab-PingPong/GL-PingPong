@@ -1,0 +1,168 @@
+2019-10-25 23:35:47,728:INFO:ExperimentFactory:/home/ubuntu/dev/android-runner/spotify/config.json
+2019-10-25 23:35:47,737:DEBUG:ExperimentRunner.Adb:Device list:
+{0: 'ENU7N15C03000145'}
+2019-10-25 23:35:47,740:DEBUG:PluginHandler:Trepn: Initialized
+2019-10-25 23:35:47,740:DEBUG:Python2:Imported /home/ubuntu/dev/android-runner/spotify/Scripts/before_experiment.py
+2019-10-25 23:35:47,740:DEBUG:Python2:Imported /home/ubuntu/dev/android-runner/spotify/Scripts/before_run.py
+2019-10-25 23:35:47,740:DEBUG:Python2:Imported /home/ubuntu/dev/android-runner/spotify/Scripts/after_launch.py
+2019-10-25 23:35:47,741:DEBUG:Python2:Imported /home/ubuntu/dev/android-runner/spotify/Scripts/interaction.py
+2019-10-25 23:35:47,741:DEBUG:Python2:Imported /home/ubuntu/dev/android-runner/spotify/Scripts/before_close.py
+2019-10-25 23:35:47,741:DEBUG:Python2:Imported /home/ubuntu/dev/android-runner/spotify/Scripts/after_run.py
+2019-10-25 23:35:47,741:DEBUG:Python2:Imported /home/ubuntu/dev/android-runner/spotify/Scripts/after_experiment.py
+2019-10-25 23:35:48,306:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "pm list packages" returned: 
+package:com.google.android.youtube
+package:com.android.providers.telephony
+package:com.android.sdm.plugins.connmo
+package:com.google.android.googlequicksearchbox
+package:com.android.providers.calendar
+package:com.android.providers.media
+package:com.huawei.entitlement
+package:com.google.android.apps.docs.editors.docs
+package:com.jrummyapps.rootbrowser.classic
+package:com.google.android.onetimeinitializer
+package:com.android.wallpapercropper
+package:com.quicinc.cne.CNEService
+package:com.android.documentsui
+package:com.android.externalstorage
+package:com.google.android.apps.enterprise.dmagent
+package:com.android.htmlviewer
+package:com.huawei.callstatisticsutils
+package:com.android.mms.service
+package:com.google.android.apps.docs.editors.slides
+package:com.android.providers.downloads
+package:com.google.android.apps.messaging
+package:android.autoinstalls.config.google.nexus
+package:com.google.android.configupdater
+package:edu.umich.PowerTutor
+package:com.android.defcontainer
+package:com.android.providers.downloads.ui
+package:com.android.vending
+package:com.android.pacprocessor
+package:com.qualcomm.cabl
+package:com.android.certinstaller
+package:com.android.carrierconfig
+package:com.google.android.marvin.talkback
+package:android
+package:com.android.hotwordenrollment
+package:com.google.android.apps.inputmethod.hindi
+package:com.android.nfc
+package:com.android.stk
+package:com.android.backupconfirm
+package:com.google.android.launcher
+package:com.google.android.deskclock
+package:org.codeaurora.ims
+package:com.android.statementservice
+package:com.google.android.gm
+package:com.android.sdm.plugins.sprintdm
+package:com.google.android.instantapps.supervisor
+package:com.google.android.setupwizard
+package:com.qualcomm.qcrilmsgtunnel
+package:com.android.providers.settings
+package:com.android.sharedstoragebackup
+package:com.google.android.music
+package:com.android.printspooler
+package:com.android.sdm.plugins.diagmon
+package:com.android.dreams.basic
+package:com.android.inputdevices
+package:com.google.android.dialer
+package:com.android.providers.calllogbackup
+package:com.google.android.apps.cloudprint
+package:com.android.musicfx
+package:com.google.android.apps.docs
+package:com.google.android.apps.maps
+package:com.google.android.apps.plus
+package:com.android.cellbroadcastreceiver
+package:com.google.android.webview
+package:com.opera.browser
+package:com.google.android.contacts
+package:com.android.server.telecom
+package:com.google.android.syncadapters.contacts
+package:com.android.facelock
+package:com.android.keychain
+package:com.google.android.gm.exchange
+package:com.google.android.calculator
+package:com.android.chrome
+package:com.google.android.packageinstaller
+package:com.google.android.gms
+package:com.google.android.gsf
+package:com.google.android.tag
+package:com.google.android.tts
+package:com.google.android.apps.walletnfcrel
+package:com.google.android.partnersetup
+package:com.google.android.videos
+package:com.android.proxyhandler
+package:com.google.android.feedback
+package:com.google.android.apps.photos
+package:com.google.android.calendar
+package:com.android.managedprovisioning
+package:com.spotify.music
+package:com.android.sdm.plugins.dcmo
+package:com.android.providers.partnerbookmarks
+package:com.google.android.gsf.login
+package:com.android.wallpaper.livepicker
+package:com.huawei.mmitest
+package:jackpal.androidterm
+package:com.google.android.inputmethod.korean
+package:filemanager.fileexplorer.manager
+package:com.google.android.backuptransport
+package:com.android.settings
+package:com.google.android.inputmethod.pinyin
+package:com.google.android.setupwizard.overlay.smartdevice
+package:com.google.android.apps.tycho
+package:pl.solidexplorer2
+package:com.android.omadm.service
+package:com.huawei.sarcontrolservice
+package:com.android.vpndialogs
+package:com.google.android.keep
+package:com.google.android.talk
+package:com.android.phone
+package:com.android.shell
+package:com.android.providers.userdictionary
+package:com.google.android.inputmethod.japanese
+package:com.android.location.fused
+package:com.android.systemui
+package:com.android.bluetoothmidiservice
+package:com.quicinc.trepn
+package:com.android.huawei.hiddenmenu
+package:com.google.android.launcher.layouts.angler
+package:com.google.android.play.games
+package:com.google.android.apps.gcs
+package:com.android.bluetooth
+package:com.qualcomm.timeservice
+package:com.android.providers.contacts
+package:com.android.captiveportallogin
+package:com.google.android.GoogleCamera
+package:com.google.android.inputmethod.latin
+
+2019-10-25 23:35:48,397:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2019-10-25 23:35:48,486:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2019-10-25 23:35:48,579:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2019-10-25 23:35:48,670:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2019-10-25 23:35:48,670:INFO:NativeURLExperiment:Device: nexus6p (ENU7N15C03000145, Android 6.0, API level 23)
+2019-10-25 23:35:48,671:INFO:Profilers:Loading
+2019-10-25 23:35:48,763:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2019-10-25 23:35:48,860:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2019-10-25 23:35:48,861:DEBUG:PluginHandler:Trepn: nexus6p (ENU7N15C03000145, Android 6.0, API level 23): Loading configuration
+2019-10-25 23:35:49,660:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "monkey -p com.quicinc.trepn 1" returned: 
+Events injected: 1
+## Network stats: elapsed time=24ms (0ms mobile, 0ms wifi, 24ms not connected)
+
+2019-10-25 23:35:52,158:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2019-10-25 23:35:52,254:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys battery reset" returned: 
+
+2019-10-25 23:35:52,255:INFO:Profilers:Stop profiling
+2019-10-25 23:35:52,341:ERROR:root:Experiment stopped by user. To continue, add progress file argument to experiment startup: --progress /home/ubuntu/dev/android-runner/spotify/output/2019.10.25_233547/progress.xml

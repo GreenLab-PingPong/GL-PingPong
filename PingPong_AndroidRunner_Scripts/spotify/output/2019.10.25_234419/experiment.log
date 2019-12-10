@@ -1,0 +1,1169 @@
+2019-10-25 23:44:19,526:INFO:ExperimentFactory:/home/ubuntu/dev/android-runner/spotify/config.json
+2019-10-25 23:44:19,534:DEBUG:ExperimentRunner.Adb:Device list:
+{0: 'ENU7N15C03000145'}
+2019-10-25 23:44:19,537:DEBUG:PluginHandler:Trepn: Initialized
+2019-10-25 23:44:19,538:DEBUG:Python2:Imported /home/ubuntu/dev/android-runner/spotify/Scripts/before_experiment.py
+2019-10-25 23:44:19,538:DEBUG:Python2:Imported /home/ubuntu/dev/android-runner/spotify/Scripts/before_run.py
+2019-10-25 23:44:19,538:DEBUG:Python2:Imported /home/ubuntu/dev/android-runner/spotify/Scripts/after_launch.py
+2019-10-25 23:44:19,538:DEBUG:Python2:Imported /home/ubuntu/dev/android-runner/spotify/Scripts/interaction.py
+2019-10-25 23:44:19,538:DEBUG:Python2:Imported /home/ubuntu/dev/android-runner/spotify/Scripts/before_close.py
+2019-10-25 23:44:19,538:DEBUG:Python2:Imported /home/ubuntu/dev/android-runner/spotify/Scripts/after_run.py
+2019-10-25 23:44:19,538:DEBUG:Python2:Imported /home/ubuntu/dev/android-runner/spotify/Scripts/after_experiment.py
+2019-10-25 23:44:20,140:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "pm list packages" returned: 
+package:com.google.android.youtube
+package:com.android.providers.telephony
+package:com.android.sdm.plugins.connmo
+package:com.google.android.googlequicksearchbox
+package:com.android.providers.calendar
+package:com.android.providers.media
+package:com.huawei.entitlement
+package:com.google.android.apps.docs.editors.docs
+package:com.jrummyapps.rootbrowser.classic
+package:com.google.android.onetimeinitializer
+package:com.android.wallpapercropper
+package:com.quicinc.cne.CNEService
+package:com.android.documentsui
+package:com.android.externalstorage
+package:com.google.android.apps.enterprise.dmagent
+package:com.android.htmlviewer
+package:com.huawei.callstatisticsutils
+package:com.android.mms.service
+package:com.google.android.apps.docs.editors.slides
+package:com.android.providers.downloads
+package:com.google.android.apps.messaging
+package:android.autoinstalls.config.google.nexus
+package:com.google.android.configupdater
+package:edu.umich.PowerTutor
+package:com.android.defcontainer
+package:com.android.providers.downloads.ui
+package:com.android.vending
+package:com.android.pacprocessor
+package:com.qualcomm.cabl
+package:com.android.certinstaller
+package:com.android.carrierconfig
+package:com.google.android.marvin.talkback
+package:android
+package:com.android.hotwordenrollment
+package:com.google.android.apps.inputmethod.hindi
+package:com.android.nfc
+package:com.android.stk
+package:com.android.backupconfirm
+package:com.google.android.launcher
+package:com.google.android.deskclock
+package:org.codeaurora.ims
+package:com.android.statementservice
+package:com.google.android.gm
+package:com.android.sdm.plugins.sprintdm
+package:com.google.android.instantapps.supervisor
+package:com.google.android.setupwizard
+package:com.qualcomm.qcrilmsgtunnel
+package:com.android.providers.settings
+package:com.android.sharedstoragebackup
+package:com.google.android.music
+package:com.android.printspooler
+package:com.android.sdm.plugins.diagmon
+package:com.android.dreams.basic
+package:com.android.inputdevices
+package:com.google.android.dialer
+package:com.android.providers.calllogbackup
+package:com.google.android.apps.cloudprint
+package:com.android.musicfx
+package:com.google.android.apps.docs
+package:com.google.android.apps.maps
+package:com.google.android.apps.plus
+package:com.android.cellbroadcastreceiver
+package:com.google.android.webview
+package:com.opera.browser
+package:com.google.android.contacts
+package:com.android.server.telecom
+package:com.google.android.syncadapters.contacts
+package:com.android.facelock
+package:com.android.keychain
+package:com.google.android.gm.exchange
+package:com.google.android.calculator
+package:com.android.chrome
+package:com.google.android.packageinstaller
+package:com.google.android.gms
+package:com.google.android.gsf
+package:com.google.android.tag
+package:com.google.android.tts
+package:com.google.android.apps.walletnfcrel
+package:com.google.android.partnersetup
+package:com.google.android.videos
+package:com.android.proxyhandler
+package:com.google.android.feedback
+package:com.google.android.apps.photos
+package:com.google.android.calendar
+package:com.android.managedprovisioning
+package:com.spotify.music
+package:com.android.sdm.plugins.dcmo
+package:com.android.providers.partnerbookmarks
+package:com.google.android.gsf.login
+package:com.android.wallpaper.livepicker
+package:com.huawei.mmitest
+package:jackpal.androidterm
+package:com.google.android.inputmethod.korean
+package:filemanager.fileexplorer.manager
+package:com.google.android.backuptransport
+package:com.android.settings
+package:com.google.android.inputmethod.pinyin
+package:com.google.android.setupwizard.overlay.smartdevice
+package:com.google.android.apps.tycho
+package:pl.solidexplorer2
+package:com.android.omadm.service
+package:com.huawei.sarcontrolservice
+package:com.android.vpndialogs
+package:com.google.android.keep
+package:com.google.android.talk
+package:com.android.phone
+package:com.android.shell
+package:com.android.providers.userdictionary
+package:com.google.android.inputmethod.japanese
+package:com.android.location.fused
+package:com.android.systemui
+package:com.android.bluetoothmidiservice
+package:com.quicinc.trepn
+package:com.android.huawei.hiddenmenu
+package:com.google.android.launcher.layouts.angler
+package:com.google.android.play.games
+package:com.google.android.apps.gcs
+package:com.android.bluetooth
+package:com.qualcomm.timeservice
+package:com.android.providers.contacts
+package:com.android.captiveportallogin
+package:com.google.android.GoogleCamera
+package:com.google.android.inputmethod.latin
+
+2019-10-25 23:44:20,233:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2019-10-25 23:44:20,335:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2019-10-25 23:44:20,438:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2019-10-25 23:44:20,531:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2019-10-25 23:44:20,532:INFO:NativeURLExperiment:Device: nexus6p (ENU7N15C03000145, Android 6.0, API level 23)
+2019-10-25 23:44:20,533:INFO:Profilers:Loading
+2019-10-25 23:44:20,644:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2019-10-25 23:44:20,741:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2019-10-25 23:44:20,742:DEBUG:PluginHandler:Trepn: nexus6p (ENU7N15C03000145, Android 6.0, API level 23): Loading configuration
+2019-10-25 23:44:21,573:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "monkey -p com.quicinc.trepn 1" returned: 
+Events injected: 1
+## Network stats: elapsed time=45ms (0ms mobile, 0ms wifi, 45ms not connected)
+
+2019-10-25 23:44:27,224:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "am broadcast -a com.quicinc.trepn.load_preferences -e com.quicinc.trepn.load_preferences_file "/storage/emulated/0/trepn/saved_preferences/trepn.pref"" returned: 
+Broadcasting: Intent { act=com.quicinc.trepn.load_preferences (has extras) }
+Broadcast completed: result=0
+
+2019-10-25 23:44:28,929:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "am force-stop com.quicinc.trepn" returned: 
+
+2019-10-25 23:44:31,623:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "am startservice com.quicinc.trepn/.TrepnService" returned: 
+Starting service: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.quicinc.trepn/.TrepnService }
+
+2019-10-25 23:44:31,725:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2019-10-25 23:44:31,823:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys battery unplug" returned: 
+
+2019-10-25 23:44:31,888:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2019-10-25 23:44:31,953:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2019-10-25 23:44:31,954:DEBUG:Scripts:Running hook before_experiment on device nexus6p (ENU7N15C03000145, Android 6.0, API level 23)
+args: ()
+kwargs: {}
+2019-10-25 23:44:31,968:INFO:Python2:before_experiment.py
+2019-10-25 23:44:31,969:DEBUG:Python2:before_experiment.py returned None
+2019-10-25 23:44:31,970:INFO:NativeURLExperiment:APK: com.spotify.music.apk
+2019-10-25 23:44:31,970:INFO:Profilers:Setting output
+2019-10-25 23:44:31,970:DEBUG:PluginHandler:Trepn: Setting output: /home/ubuntu/dev/android-runner/spotify/output/2019.10.25_234419/data/nexus6p/homeubuntudevcomspotifymusicapk/trepn/
+2019-10-25 23:44:31,970:INFO:NativeURLExperiment:Run 1 of 2
+2019-10-25 23:44:32,053:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "logcat -c" returned: 
+
+2019-10-25 23:44:32,054:INFO:NativeURLExperiment:Logcat cleared
+2019-10-25 23:44:32,124:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2019-10-25 23:44:32,193:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2019-10-25 23:44:32,194:DEBUG:Scripts:Running hook before_run on device nexus6p (ENU7N15C03000145, Android 6.0, API level 23)
+args: ()
+kwargs: {}
+2019-10-25 23:44:32,200:INFO:Python2:before_run.py
+2019-10-25 23:44:32,201:DEBUG:Python2:before_run.py returned None
+2019-10-25 23:44:32,845:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "am start -a android.intent.action.VIEW -d spotify:track:0J9yIH0Fm2IZvhsMPP4d4N" returned: 
+Starting: Intent { act=android.intent.action.VIEW dat=spotify:track:0J9yIH0Fm2IZvhsMPP4d4N }
+
+2019-10-25 23:44:38,540:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "am start -a android.intent.action.VIEW -d spotify:track:0J9yIH0Fm2IZvhsMPP4d4N" returned: 
+Starting: Intent { act=android.intent.action.VIEW dat=spotify:track:0J9yIH0Fm2IZvhsMPP4d4N }
+Warning: Activity not started, its current task has been brought to the front
+
+2019-10-25 23:44:39,669:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows" returned: 
+WINDOW MANAGER WINDOWS (dumpsys window windows)
+  Window #9 Window{8fbe92a u0 PointerLocation}:
+    mDisplayId=0 stackId=1 mSession=Session{77c3686 915:1000} mClient=android.view.ViewRootImpl$W@fd53512
+    mOwnerUid=1000 mShowToOwnerOnly=true package=android appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=2015 fl=#1000518 pfl=0x2 fmt=-3 if=0x2}
+    Requested w=1440 h=2560 mLayoutSeq=17058
+    mBaseLayer=281000 mSubLayer=0 mAnimLayer=281000+0=281000 mLastLayer=281000
+    mToken=WindowToken{641e6f4 null}
+    mRootToken=WindowToken{641e6f4 null}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.163}
+    mHasSurface=true mShownFrame=[0.0,0.0][1440.0,2560.0] isReadyForDisplay()=true
+    mFrame=[0,0][1440,2560] last=[0,0][1440,2560]
+    mSystemDecorRect=[0,0][1440,2560] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2560] parent=[0,0][1440,2560]
+        display=[0,0][1440,2560] overscan=[0,0][1440,2560]
+        content=[0,0][1440,2560] visible=[0,84][1440,2392]
+        decor=[0,0][1440,2560]
+        outset=[0,0][1440,2560]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,84][0,168] stable=[0,84][0,168] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,84][0,168] stable=[0,84][0,168] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{325de1d PointerLocation}:
+      mSurface=Surface(name=PointerLocation)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=281000 alpha=1.0 rect=(0.0,0.0) 1440.0 x 2560.0
+    mLastFreezeDuration=+87ms
+  Window #8 Window{fa7ec1b u0 NavigationBar}:
+    mDisplayId=0 stackId=1 mSession=Session{6d3f821 3107:u0a10027} mClient=android.os.BinderProxy@8f7962a
+    mOwnerUid=10027 mShowToOwnerOnly=false package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=2019 fl=#1840068 fmt=-3}
+    Requested w=1440 h=168 mLayoutSeq=17058
+    mBaseLayer=211000 mSubLayer=0 mAnimLayer=211000+0=211000 mLastLayer=211000
+    mToken=WindowToken{641e6f4 null}
+    mRootToken=WindowToken{641e6f4 null}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.163}
+    mHasSurface=true mShownFrame=[0.0,2392.0][1440.0,2560.0] isReadyForDisplay()=true
+    mFrame=[0,2392][1440,2560] last=[0,2392][1440,2560]
+    mSystemDecorRect=[0,0][1440,168] last=[0,0][0,0]
+    Frames: containing=[0,2392][1440,2560] parent=[0,2392][1440,2560]
+        display=[0,2392][1440,2560] overscan=[0,2392][1440,2560]
+        content=[0,2392][1440,2560] visible=[0,2392][1440,2560]
+        decor=[0,0][0,0]
+        outset=[0,2392][1440,2560]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{83a9892 NavigationBar}:
+      mSurface=Surface(name=NavigationBar)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=211000 alpha=1.0 rect=(0.0,2392.0) 1440.0 x 168.0
+    mLastFreezeDuration=+142ms
+  Window #7 Window{d37d334 u0 StatusBar}:
+    mDisplayId=0 stackId=1 mSession=Session{6d3f821 3107:u0a10027} mClient=android.os.BinderProxy@af2b607
+    mOwnerUid=10027 mShowToOwnerOnly=false package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillx84) gr=#30 sim=#10 ty=2000 fl=#81840048 fmt=-3 vsysui=0x600}
+    Requested w=1440 h=84 mLayoutSeq=17058
+    mBaseLayer=161000 mSubLayer=0 mAnimLayer=161000+0=161000 mLastLayer=161000
+    mToken=WindowToken{641e6f4 null}
+    mRootToken=WindowToken{641e6f4 null}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x600
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.163}
+    mHasSurface=true mShownFrame=[0.0,0.0][1440.0,84.0] isReadyForDisplay()=true
+    mFrame=[0,0][1440,84] last=[0,0][1440,84]
+    mSystemDecorRect=[0,0][1440,84] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2560] parent=[0,0][1440,2560]
+        display=[0,0][1440,2560] overscan=[0,0][1440,2392]
+        content=[0,0][1440,84] visible=[0,0][1440,84]
+        decor=[0,0][0,0]
+        outset=[0,0][1440,2392]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{e5ba263 StatusBar}:
+      mSurface=Surface(name=StatusBar)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=161000 alpha=1.0 rect=(0.0,0.0) 1440.0 x 84.0
+    mLastFreezeDuration=+129ms
+  Window #6 Window{94f1c9d u0 KeyguardScrim}:
+    mDisplayId=0 stackId=1 mSession=Session{77c3686 915:1000} mClient=android.view.ViewRootImpl$W@b670f74
+    mOwnerUid=1000 mShowToOwnerOnly=false package=android appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#10 ty=2029 fl=#1110900 pfl=0x1 fmt=-3 or=5 vsysui=0x3610000}
+    Requested w=1440 h=2392 mLayoutSeq=32
+    mBaseLayer=141000 mSubLayer=0 mAnimLayer=141000+0=141000 mLastLayer=141000
+    mToken=WindowToken{641e6f4 null}
+    mRootToken=WindowToken{641e6f4 null}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x3610000
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.5}
+    mHasSurface=false mShownFrame=[0.0,0.0][1440.0,2392.0] isReadyForDisplay()=false
+    mFrame=[0,0][1440,2392] last=[0,0][1440,2392]
+    mSystemDecorRect=[0,0][1440,2392] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2392] parent=[0,0][1440,2392]
+        display=[0,0][1440,2392] overscan=[0,0][1440,2560]
+        content=[0,84][1440,2392] visible=[0,84][1440,2392]
+        decor=[0,0][1440,2560]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,84][0,0] visible=[0,84][0,0] stable=[0,84][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,84][0,0] visible=[0,84][0,0] stable=[0,84][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{4107e60 KeyguardScrim}:
+  Window #5 Window{3cb5d6c u0 AssistPreviewPanel}:
+    mDisplayId=0 stackId=1 mSession=Session{6d3f821 3107:u0a10027} mClient=android.os.BinderProxy@581a61f
+    mOwnerUid=10027 mShowToOwnerOnly=true package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillx875) gr=#800053 sim=#31 ty=2033 fl=#1000118 fmt=-3 vsysui=0x700}
+    Requested w=0 h=0 mLayoutSeq=17024
+    mBaseLayer=41000 mSubLayer=0 mAnimLayer=41000+0=41000 mLastLayer=0
+    mToken=WindowToken{641e6f4 null}
+    mRootToken=WindowToken{641e6f4 null}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x700
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc ?locale ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/?}
+    mHasSurface=false mShownFrame=[0.0,0.0][0.0,0.0] isReadyForDisplay()=false
+    mFrame=[0,2392][1440,2392] last=[0,0][0,0]
+    mSystemDecorRect=[0,0][0,0] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2392] parent=[0,0][1440,2392]
+        display=[0,0][1440,2392] overscan=[0,0][1440,2392]
+        content=[0,2392][1440,2392] visible=[0,2392][1440,2392]
+        decor=[0,0][1440,2560]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{3d4edd4 AssistPreviewPanel}:
+      mShownAlpha=0.0 mAlpha=1.0 mLastAlpha=0.0
+  Window #4 Window{dca954c u0 InputMethod}:
+    mDisplayId=0 stackId=1 mSession=Session{14e98d9 28698:u0a10056} mClient=android.os.BinderProxy@5d517f
+    mOwnerUid=10056 mShowToOwnerOnly=true package=com.google.android.inputmethod.latin appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) gr=#50 sim=#20 ty=2011 fl=#800108 fmt=-2 wanim=0x1030056 vsysui=0x300 needsMenuKey=2}
+    Requested w=1440 h=2560 mLayoutSeq=16592
+    mIsImWindow=true mIsWallpaper=false mIsFloatingLayer=true mWallpaperVisible=false
+    mBaseLayer=121000 mSubLayer=0 mAnimLayer=21020+0=21020 mLastLayer=21055
+    mToken=WindowToken{d853645 android.os.Binder@a5a26d0}
+    mRootToken=WindowToken{d853645 android.os.Binder@a5a26d0}
+    mTargetAppToken=AppWindowToken{5d98857 token=Token{4514dd6 ActivityRecord{6a4cdf1 u0 com.spotify.music/com.spotify.loginflow.LoginActivity t1013}}}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x300
+    mGivenContentInsets=[0,2476][0,0] mGivenVisibleInsets=[0,2476][0,0]
+    mTouchableInsets=2 mGivenInsetsPending=false
+    touchable region=SkRegion()
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.157}
+    mHasSurface=false mShownFrame=[0.0,84.0][1440.0,2560.0] isReadyForDisplay()=false
+    mFrame=[0,84][1440,2560] last=[0,84][1440,2560]
+    mSystemDecorRect=[0,0][1440,2476] last=[0,0][0,0]
+    Frames: containing=[0,84][1440,2560] parent=[0,84][1440,2560]
+        display=[0,84][1440,2560] overscan=[0,84][1440,2560]
+        content=[0,84][1440,2392] visible=[0,84][1440,2392]
+        decor=[0,0][0,0]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,168] visible=[0,0][0,168] stable=[0,0][0,168] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,168] visible=[0,0][0,168] stable=[0,0][0,168] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{69f519a InputMethod}:
+      mShownAlpha=1.0 mAlpha=1.0 mLastAlpha=0.0
+  Window #3 Window{7153fcd u0 com.spotify.music/com.spotify.music.MainActivity}:
+    mDisplayId=0 stackId=1 mSession=Session{741faf6 6442:u0a10089} mClient=android.os.BinderProxy@a900164
+    mOwnerUid=10089 mShowToOwnerOnly=true package=com.spotify.music appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#130 ty=1 fl=#85810100 wanim=0x103045b vsysui=0x700 needsMenuKey=2}
+    Requested w=1440 h=2392 mLayoutSeq=17058
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21015+0=21015 mLastLayer=21015
+    mToken=AppWindowToken{a9de827 token=Token{70f0ae6 ActivityRecord{89e1541 u0 com.spotify.music/.MainActivity t1020}}}
+    mRootToken=AppWindowToken{a9de827 token=Token{70f0ae6 ActivityRecord{89e1541 u0 com.spotify.music/.MainActivity t1020}}}
+    mAppToken=AppWindowToken{a9de827 token=Token{70f0ae6 ActivityRecord{89e1541 u0 com.spotify.music/.MainActivity t1020}}}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x700
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.163}
+    mHasSurface=true mShownFrame=[0.0,0.0][1440.0,2560.0] isReadyForDisplay()=true
+    mFrame=[0,0][1440,2560] last=[0,0][1440,2560]
+    mSystemDecorRect=[0,0][1440,2560] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2560] parent=[0,0][1440,2560]
+        display=[0,0][1440,2560] overscan=[0,0][1440,2560]
+        content=[0,84][1440,2392] visible=[0,84][1440,2392]
+        decor=[0,0][1440,2560]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,84][0,168] visible=[0,84][0,168] stable=[0,84][0,168] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,84][0,168] visible=[0,84][0,168] stable=[0,84][0,168] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{8180b7d com.spotify.music/com.spotify.music.MainActivity}:
+      mSurface=Surface(name=com.spotify.music/com.spotify.music.MainActivity)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=21015 alpha=1.0 rect=(0.0,0.0) 1440.0 x 2560.0
+  Window #2 Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}:
+    mDisplayId=0 stackId=0 mSession=Session{a245f5f 3558:u0a10029} mClient=android.os.BinderProxy@c48fc83
+    mOwnerUid=10029 mShowToOwnerOnly=true package=com.google.android.googlequicksearchbox appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#120 ty=1 fl=#81910100 fmt=-3 wanim=0x103045b vsysui=0x600 needsMenuKey=2}
+    Requested w=1440 h=2560 mLayoutSeq=17045
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21010+0=21010 mLastLayer=21010
+    mToken=AppWindowToken{b0aab12 token=Token{eb8aa9d ActivityRecord{1661574 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t801}}}
+    mRootToken=AppWindowToken{b0aab12 token=Token{eb8aa9d ActivityRecord{1661574 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t801}}}
+    mAppToken=AppWindowToken{b0aab12 token=Token{eb8aa9d ActivityRecord{1661574 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t801}}}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=true
+    mSeq=0 mSystemUiVisibility=0x600
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.143}
+    mHasSurface=false mShownFrame=[0.0,0.0][1440.0,2560.0] isReadyForDisplay()=false
+    mFrame=[0,0][1440,2560] last=[0,0][1440,2560]
+    mSystemDecorRect=[0,0][1440,2560] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2560] parent=[0,0][1440,2560]
+        display=[0,0][1440,2560] overscan=[0,0][1440,2560]
+        content=[0,84][1440,2392] visible=[0,84][1440,2392]
+        decor=[0,0][1440,2560]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,84][0,168] visible=[0,84][0,168] stable=[0,84][0,168] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,84][0,168] visible=[0,84][0,168] stable=[0,84][0,168] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{605721c com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}:
+    mWallpaperX=0.33333334 mWallpaperY=0.5
+    mWallpaperXStep=0.33333334 mWallpaperYStep=1.0
+  Window #1 Window{bfee3fa u0 com.android.systemui/com.android.systemui.recents.RecentsActivity}:
+    mDisplayId=0 stackId=0 mSession=Session{6d3f821 3107:u0a10027} mClient=android.os.BinderProxy@ef81625
+    mOwnerUid=10027 mShowToOwnerOnly=true package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#120 ty=1 fl=#81910100 fmt=-2 wanim=0x7f0e0005 vsysui=0x700 needsMenuKey=2}
+    Requested w=1440 h=2560 mLayoutSeq=16898
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21005+0=21005 mLastLayer=22005
+    mToken=AppWindowToken{6829831 token=Token{91bacd8 ActivityRecord{4251fbb u0 com.android.systemui/.recents.RecentsActivity t808}}}
+    mRootToken=AppWindowToken{6829831 token=Token{91bacd8 ActivityRecord{4251fbb u0 com.android.systemui/.recents.RecentsActivity t808}}}
+    mAppToken=AppWindowToken{6829831 token=Token{91bacd8 ActivityRecord{4251fbb u0 com.android.systemui/.recents.RecentsActivity t808}}}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=true
+    mSeq=0 mSystemUiVisibility=0x700
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.9}
+    mHasSurface=false mShownFrame=[0.0,0.0][1440.0,2560.0] isReadyForDisplay()=false
+    mFrame=[0,0][1440,2560] last=[0,0][1440,2560]
+    mSystemDecorRect=[0,0][1440,2560] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2560] parent=[0,0][1440,2560]
+        display=[0,0][1440,2560] overscan=[0,0][1440,2560]
+        content=[0,84][1440,2392] visible=[0,84][1440,2392]
+        decor=[0,0][1440,2560]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,84][0,168] visible=[0,84][0,168] stable=[0,84][0,168] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,84][0,168] visible=[0,84][0,168] stable=[0,84][0,168] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{d964a42 com.android.systemui/com.android.systemui.recents.RecentsActivity}:
+      mShownAlpha=1.0 mAlpha=1.0 mLastAlpha=0.0
+  Window #0 Window{8f0106b u0 com.android.systemui.ImageWallpaper}:
+    mDisplayId=0 stackId=1 mSession=Session{6d3f821 3107:u0a10027} mClient=android.os.BinderProxy@99359ba
+    mOwnerUid=10027 mShowToOwnerOnly=true package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(1634x2560) gr=#800033 ty=2013 fl=#318 fmt=2 wanim=0x10302ea}
+    Requested w=1634 h=2560 mLayoutSeq=17049
+    mIsImWindow=false mIsWallpaper=true mIsFloatingLayer=true mWallpaperVisible=false
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21000+0=21000 mLastLayer=21000
+    mToken=WindowToken{4a9ea53 android.os.Binder@51e6cb0}
+    mRootToken=WindowToken{4a9ea53 android.os.Binder@51e6cb0}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=true
+    mSeq=0 mSystemUiVisibility=0x0
+    Offsets x=-65 y=0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.163}
+    mHasSurface=true mShownFrame=[-65.0,0.0][1569.0,2560.0] isReadyForDisplay()=false
+    mFrame=[0,0][1634,2560] last=[0,0][1634,2560]
+    mSystemDecorRect=[65,0][1505,2560] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2560] parent=[0,0][1440,2560]
+        display=[-10000,-10000][10000,10000] overscan=[0,0][1440,2560]
+        content=[0,0][1440,2560] visible=[0,84][1440,2392]
+        decor=[0,0][1440,2560]
+        outset=[0,0][1440,2560]
+    Cur insets: overscan=[0,0][194,0] content=[0,0][194,0] visible=[0,84][194,168] stable=[0,84][194,168] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][194,0] content=[0,0][194,0] visible=[0,84][194,168] stable=[0,84][194,168] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{f03f90 com.android.systemui.ImageWallpaper}:
+      mSurface=Surface(name=com.android.systemui.ImageWallpaper)
+      mDrawState=HAS_DRAWN mLastHidden=true
+      Surface: shown=false layer=21000 alpha=1.0 rect=(-65.0,0.0) 1634.0 x 2560.0
+    mLastFreezeDuration=+3s605ms
+    mWallpaperX=0.33333334 mWallpaperY=0.5
+    mWallpaperXStep=0.33333334 mWallpaperYStep=1.0
+
+  mCurConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.163}
+  mHasPermanentDpad=false
+  mCurrentFocus=Window{7153fcd u0 com.spotify.music/com.spotify.music.MainActivity}
+  mFocusedApp=AppWindowToken{a9de827 token=Token{70f0ae6 ActivityRecord{89e1541 u0 com.spotify.music/.MainActivity t1020}}}
+  mInputMethodTarget=Window{c3ba69d u0 com.spotify.music/com.spotify.loginflow.LoginActivity}
+  mInTouchMode=true mLayoutSeq=17058
+  mLastDisplayFreezeDuration=+158ms due to Window{fa7ec1b u0 NavigationBar}
+  mSystemDecorLayer=161000 mScreenRect=[0,0][1440,2560]
+  mLastStatusBarVisibility=0x40008700
+  mWallpaperTarget=null
+  mLastWallpaperX=0.33333334 mLastWallpaperY=0.5
+  mSystemBooted=true mDisplayEnabled=true
+  mTransactionSequence=22486
+  mDisplayFrozen=false windows=0 client=false apps=0 waitingForConfig=false
+  mRotation=0 mAltOrientation=false
+  mLastWindowForcedOrientation=-1 mForcedAppOrientation=1
+  mDeferredRotationPauseCount=0
+  Animation settings: disabled=false window=1.0 transition=1.0 animator=1.0
+  mTraversalScheduled=false
+ mSkipAppTransitionAnimation=false
+  mLayoutToAnim:
+    mNextAppTransition=TRANSIT_UNSET
+    mAppTransitionState=APP_STATE_IDLE
+
+2019-10-25 23:44:39,675:DEBUG:Device:Current activity: com.spotify.music
+2019-10-25 23:44:39,744:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2019-10-25 23:44:39,812:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2019-10-25 23:44:39,813:DEBUG:Scripts:Running hook after_launch on device nexus6p (ENU7N15C03000145, Android 6.0, API level 23)
+args: (u'ENU7N15C03000145', 'com.spotify.music')
+kwargs: {}
+2019-10-25 23:44:39,820:INFO:Python2:after_launch.py
+2019-10-25 23:44:39,821:DEBUG:Python2:after_launch.py returned None
+2019-10-25 23:44:39,822:INFO:Profilers:Start profiling
+2019-10-25 23:44:39,916:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2019-10-25 23:44:40,012:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2019-10-25 23:44:40,012:DEBUG:PluginHandler:Trepn: nexus6p (ENU7N15C03000145, Android 6.0, API level 23): Start profiling
+2019-10-25 23:44:40,966:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "am broadcast -a com.quicinc.trepn.start_profiling" returned: 
+Broadcasting: Intent { act=com.quicinc.trepn.start_profiling }
+Broadcast completed: result=0
+
+2019-10-25 23:44:41,040:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2019-10-25 23:44:41,113:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2019-10-25 23:44:41,113:DEBUG:Scripts:Running hook interaction on device nexus6p (ENU7N15C03000145, Android 6.0, API level 23)
+args: ()
+kwargs: {}
+2019-10-25 23:44:41,119:INFO:Python2:interaction.py
+2019-10-25 23:44:41,119:DEBUG:Python2:interaction.py returned None
+2019-10-25 23:45:31,171:INFO:Profilers:Stop profiling
+2019-10-25 23:45:31,262:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2019-10-25 23:45:31,357:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2019-10-25 23:45:31,358:DEBUG:PluginHandler:Trepn: nexus6p (ENU7N15C03000145, Android 6.0, API level 23): Stop profiling
+2019-10-25 23:45:32,430:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "am broadcast -a com.quicinc.trepn.stop_profiling" returned: 
+Broadcasting: Intent { act=com.quicinc.trepn.stop_profiling }
+Broadcast completed: result=0
+
+2019-10-25 23:45:32,522:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows" returned: 
+WINDOW MANAGER WINDOWS (dumpsys window windows)
+  Window #9 Window{8fbe92a u0 PointerLocation}:
+    mDisplayId=0 stackId=1 mSession=Session{77c3686 915:1000} mClient=android.view.ViewRootImpl$W@fd53512
+    mOwnerUid=1000 mShowToOwnerOnly=true package=android appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=2015 fl=#1000518 pfl=0x2 fmt=-3 if=0x2}
+    Requested w=1440 h=2560 mLayoutSeq=17066
+    mBaseLayer=281000 mSubLayer=0 mAnimLayer=281000+0=281000 mLastLayer=281000
+    mToken=WindowToken{641e6f4 null}
+    mRootToken=WindowToken{641e6f4 null}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.163}
+    mHasSurface=true mShownFrame=[0.0,0.0][1440.0,2560.0] isReadyForDisplay()=true
+    mFrame=[0,0][1440,2560] last=[0,0][1440,2560]
+    mSystemDecorRect=[0,0][1440,2560] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2560] parent=[0,0][1440,2560]
+        display=[0,0][1440,2560] overscan=[0,0][1440,2560]
+        content=[0,0][1440,2560] visible=[0,84][1440,2392]
+        decor=[0,0][1440,2560]
+        outset=[0,0][1440,2560]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,84][0,168] stable=[0,84][0,168] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,84][0,168] stable=[0,84][0,168] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{325de1d PointerLocation}:
+      mSurface=Surface(name=PointerLocation)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=281000 alpha=1.0 rect=(0.0,0.0) 1440.0 x 2560.0
+    mLastFreezeDuration=+87ms
+  Window #8 Window{fa7ec1b u0 NavigationBar}:
+    mDisplayId=0 stackId=1 mSession=Session{6d3f821 3107:u0a10027} mClient=android.os.BinderProxy@8f7962a
+    mOwnerUid=10027 mShowToOwnerOnly=false package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=2019 fl=#1840068 fmt=-3}
+    Requested w=1440 h=168 mLayoutSeq=17066
+    mBaseLayer=211000 mSubLayer=0 mAnimLayer=211000+0=211000 mLastLayer=211000
+    mToken=WindowToken{641e6f4 null}
+    mRootToken=WindowToken{641e6f4 null}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.163}
+    mHasSurface=true mShownFrame=[0.0,2392.0][1440.0,2560.0] isReadyForDisplay()=true
+    mFrame=[0,2392][1440,2560] last=[0,2392][1440,2560]
+    mSystemDecorRect=[0,0][1440,168] last=[0,0][0,0]
+    Frames: containing=[0,2392][1440,2560] parent=[0,2392][1440,2560]
+        display=[0,2392][1440,2560] overscan=[0,2392][1440,2560]
+        content=[0,2392][1440,2560] visible=[0,2392][1440,2560]
+        decor=[0,0][0,0]
+        outset=[0,2392][1440,2560]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{83a9892 NavigationBar}:
+      mSurface=Surface(name=NavigationBar)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=211000 alpha=1.0 rect=(0.0,2392.0) 1440.0 x 168.0
+    mLastFreezeDuration=+142ms
+  Window #7 Window{d37d334 u0 StatusBar}:
+    mDisplayId=0 stackId=1 mSession=Session{6d3f821 3107:u0a10027} mClient=android.os.BinderProxy@af2b607
+    mOwnerUid=10027 mShowToOwnerOnly=false package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillx84) gr=#30 sim=#10 ty=2000 fl=#81840048 fmt=-3 vsysui=0x600}
+    Requested w=1440 h=84 mLayoutSeq=17066
+    mBaseLayer=161000 mSubLayer=0 mAnimLayer=161000+0=161000 mLastLayer=161000
+    mToken=WindowToken{641e6f4 null}
+    mRootToken=WindowToken{641e6f4 null}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x600
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.163}
+    mHasSurface=true mShownFrame=[0.0,0.0][1440.0,84.0] isReadyForDisplay()=true
+    mFrame=[0,0][1440,84] last=[0,0][1440,84]
+    mSystemDecorRect=[0,0][1440,84] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2560] parent=[0,0][1440,2560]
+        display=[0,0][1440,2560] overscan=[0,0][1440,2392]
+        content=[0,0][1440,84] visible=[0,0][1440,84]
+        decor=[0,0][0,0]
+        outset=[0,0][1440,2392]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{e5ba263 StatusBar}:
+      mSurface=Surface(name=StatusBar)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=161000 alpha=1.0 rect=(0.0,0.0) 1440.0 x 84.0
+    mLastFreezeDuration=+129ms
+  Window #6 Window{94f1c9d u0 KeyguardScrim}:
+    mDisplayId=0 stackId=1 mSession=Session{77c3686 915:1000} mClient=android.view.ViewRootImpl$W@b670f74
+    mOwnerUid=1000 mShowToOwnerOnly=false package=android appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#10 ty=2029 fl=#1110900 pfl=0x1 fmt=-3 or=5 vsysui=0x3610000}
+    Requested w=1440 h=2392 mLayoutSeq=32
+    mBaseLayer=141000 mSubLayer=0 mAnimLayer=141000+0=141000 mLastLayer=141000
+    mToken=WindowToken{641e6f4 null}
+    mRootToken=WindowToken{641e6f4 null}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x3610000
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.5}
+    mHasSurface=false mShownFrame=[0.0,0.0][1440.0,2392.0] isReadyForDisplay()=false
+    mFrame=[0,0][1440,2392] last=[0,0][1440,2392]
+    mSystemDecorRect=[0,0][1440,2392] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2392] parent=[0,0][1440,2392]
+        display=[0,0][1440,2392] overscan=[0,0][1440,2560]
+        content=[0,84][1440,2392] visible=[0,84][1440,2392]
+        decor=[0,0][1440,2560]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,84][0,0] visible=[0,84][0,0] stable=[0,84][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,84][0,0] visible=[0,84][0,0] stable=[0,84][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{4107e60 KeyguardScrim}:
+  Window #5 Window{3cb5d6c u0 AssistPreviewPanel}:
+    mDisplayId=0 stackId=1 mSession=Session{6d3f821 3107:u0a10027} mClient=android.os.BinderProxy@581a61f
+    mOwnerUid=10027 mShowToOwnerOnly=true package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillx875) gr=#800053 sim=#31 ty=2033 fl=#1000118 fmt=-3 vsysui=0x700}
+    Requested w=0 h=0 mLayoutSeq=17024
+    mBaseLayer=41000 mSubLayer=0 mAnimLayer=41000+0=41000 mLastLayer=0
+    mToken=WindowToken{641e6f4 null}
+    mRootToken=WindowToken{641e6f4 null}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x700
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc ?locale ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/?}
+    mHasSurface=false mShownFrame=[0.0,0.0][0.0,0.0] isReadyForDisplay()=false
+    mFrame=[0,2392][1440,2392] last=[0,0][0,0]
+    mSystemDecorRect=[0,0][0,0] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2392] parent=[0,0][1440,2392]
+        display=[0,0][1440,2392] overscan=[0,0][1440,2392]
+        content=[0,2392][1440,2392] visible=[0,2392][1440,2392]
+        decor=[0,0][1440,2560]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{3d4edd4 AssistPreviewPanel}:
+      mShownAlpha=0.0 mAlpha=1.0 mLastAlpha=0.0
+  Window #4 Window{dca954c u0 InputMethod}:
+    mDisplayId=0 stackId=1 mSession=Session{14e98d9 28698:u0a10056} mClient=android.os.BinderProxy@5d517f
+    mOwnerUid=10056 mShowToOwnerOnly=true package=com.google.android.inputmethod.latin appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) gr=#50 sim=#20 ty=2011 fl=#800108 fmt=-2 wanim=0x1030056 vsysui=0x300 needsMenuKey=2}
+    Requested w=1440 h=2560 mLayoutSeq=16592
+    mIsImWindow=true mIsWallpaper=false mIsFloatingLayer=true mWallpaperVisible=false
+    mBaseLayer=121000 mSubLayer=0 mAnimLayer=21020+0=21020 mLastLayer=21055
+    mToken=WindowToken{d853645 android.os.Binder@a5a26d0}
+    mRootToken=WindowToken{d853645 android.os.Binder@a5a26d0}
+    mTargetAppToken=AppWindowToken{5d98857 token=Token{4514dd6 ActivityRecord{6a4cdf1 u0 com.spotify.music/com.spotify.loginflow.LoginActivity t1013}}}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x300
+    mGivenContentInsets=[0,2476][0,0] mGivenVisibleInsets=[0,2476][0,0]
+    mTouchableInsets=2 mGivenInsetsPending=false
+    touchable region=SkRegion()
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.157}
+    mHasSurface=false mShownFrame=[0.0,84.0][1440.0,2560.0] isReadyForDisplay()=false
+    mFrame=[0,84][1440,2560] last=[0,84][1440,2560]
+    mSystemDecorRect=[0,0][1440,2476] last=[0,0][0,0]
+    Frames: containing=[0,84][1440,2560] parent=[0,84][1440,2560]
+        display=[0,84][1440,2560] overscan=[0,84][1440,2560]
+        content=[0,84][1440,2392] visible=[0,84][1440,2392]
+        decor=[0,0][0,0]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,168] visible=[0,0][0,168] stable=[0,0][0,168] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,168] visible=[0,0][0,168] stable=[0,0][0,168] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{69f519a InputMethod}:
+      mShownAlpha=1.0 mAlpha=1.0 mLastAlpha=0.0
+  Window #3 Window{7153fcd u0 com.spotify.music/com.spotify.music.MainActivity}:
+    mDisplayId=0 stackId=1 mSession=Session{741faf6 6442:u0a10089} mClient=android.os.BinderProxy@a900164
+    mOwnerUid=10089 mShowToOwnerOnly=true package=com.spotify.music appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#130 ty=1 fl=#85810100 wanim=0x103045b vsysui=0x700 needsMenuKey=2}
+    Requested w=1440 h=2392 mLayoutSeq=17066
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21015+0=21015 mLastLayer=21015
+    mToken=AppWindowToken{a9de827 token=Token{70f0ae6 ActivityRecord{89e1541 u0 com.spotify.music/.MainActivity t1020}}}
+    mRootToken=AppWindowToken{a9de827 token=Token{70f0ae6 ActivityRecord{89e1541 u0 com.spotify.music/.MainActivity t1020}}}
+    mAppToken=AppWindowToken{a9de827 token=Token{70f0ae6 ActivityRecord{89e1541 u0 com.spotify.music/.MainActivity t1020}}}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x700
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.163}
+    mHasSurface=true mShownFrame=[0.0,0.0][1440.0,2560.0] isReadyForDisplay()=true
+    mFrame=[0,0][1440,2560] last=[0,0][1440,2560]
+    mSystemDecorRect=[0,0][1440,2560] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2560] parent=[0,0][1440,2560]
+        display=[0,0][1440,2560] overscan=[0,0][1440,2560]
+        content=[0,84][1440,2392] visible=[0,84][1440,2392]
+        decor=[0,0][1440,2560]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,84][0,168] visible=[0,84][0,168] stable=[0,84][0,168] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,84][0,168] visible=[0,84][0,168] stable=[0,84][0,168] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{8180b7d com.spotify.music/com.spotify.music.MainActivity}:
+      mSurface=Surface(name=com.spotify.music/com.spotify.music.MainActivity)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=21015 alpha=1.0 rect=(0.0,0.0) 1440.0 x 2560.0
+  Window #2 Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}:
+    mDisplayId=0 stackId=0 mSession=Session{a245f5f 3558:u0a10029} mClient=android.os.BinderProxy@c48fc83
+    mOwnerUid=10029 mShowToOwnerOnly=true package=com.google.android.googlequicksearchbox appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#120 ty=1 fl=#81910100 fmt=-3 wanim=0x103045b vsysui=0x600 needsMenuKey=2}
+    Requested w=1440 h=2560 mLayoutSeq=17045
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21010+0=21010 mLastLayer=21010
+    mToken=AppWindowToken{b0aab12 token=Token{eb8aa9d ActivityRecord{1661574 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t801}}}
+    mRootToken=AppWindowToken{b0aab12 token=Token{eb8aa9d ActivityRecord{1661574 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t801}}}
+    mAppToken=AppWindowToken{b0aab12 token=Token{eb8aa9d ActivityRecord{1661574 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t801}}}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=true
+    mSeq=0 mSystemUiVisibility=0x600
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.143}
+    mHasSurface=false mShownFrame=[0.0,0.0][1440.0,2560.0] isReadyForDisplay()=false
+    mFrame=[0,0][1440,2560] last=[0,0][1440,2560]
+    mSystemDecorRect=[0,0][1440,2560] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2560] parent=[0,0][1440,2560]
+        display=[0,0][1440,2560] overscan=[0,0][1440,2560]
+        content=[0,84][1440,2392] visible=[0,84][1440,2392]
+        decor=[0,0][1440,2560]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,84][0,168] visible=[0,84][0,168] stable=[0,84][0,168] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,84][0,168] visible=[0,84][0,168] stable=[0,84][0,168] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{605721c com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}:
+    mWallpaperX=0.33333334 mWallpaperY=0.5
+    mWallpaperXStep=0.33333334 mWallpaperYStep=1.0
+  Window #1 Window{bfee3fa u0 com.android.systemui/com.android.systemui.recents.RecentsActivity}:
+    mDisplayId=0 stackId=0 mSession=Session{6d3f821 3107:u0a10027} mClient=android.os.BinderProxy@ef81625
+    mOwnerUid=10027 mShowToOwnerOnly=true package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#120 ty=1 fl=#81910100 fmt=-2 wanim=0x7f0e0005 vsysui=0x700 needsMenuKey=2}
+    Requested w=1440 h=2560 mLayoutSeq=16898
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21005+0=21005 mLastLayer=22005
+    mToken=AppWindowToken{6829831 token=Token{91bacd8 ActivityRecord{4251fbb u0 com.android.systemui/.recents.RecentsActivity t808}}}
+    mRootToken=AppWindowToken{6829831 token=Token{91bacd8 ActivityRecord{4251fbb u0 com.android.systemui/.recents.RecentsActivity t808}}}
+    mAppToken=AppWindowToken{6829831 token=Token{91bacd8 ActivityRecord{4251fbb u0 com.android.systemui/.recents.RecentsActivity t808}}}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=true
+    mSeq=0 mSystemUiVisibility=0x700
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.9}
+    mHasSurface=false mShownFrame=[0.0,0.0][1440.0,2560.0] isReadyForDisplay()=false
+    mFrame=[0,0][1440,2560] last=[0,0][1440,2560]
+    mSystemDecorRect=[0,0][1440,2560] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2560] parent=[0,0][1440,2560]
+        display=[0,0][1440,2560] overscan=[0,0][1440,2560]
+        content=[0,84][1440,2392] visible=[0,84][1440,2392]
+        decor=[0,0][1440,2560]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,84][0,168] visible=[0,84][0,168] stable=[0,84][0,168] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,84][0,168] visible=[0,84][0,168] stable=[0,84][0,168] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{d964a42 com.android.systemui/com.android.systemui.recents.RecentsActivity}:
+      mShownAlpha=1.0 mAlpha=1.0 mLastAlpha=0.0
+  Window #0 Window{8f0106b u0 com.android.systemui.ImageWallpaper}:
+    mDisplayId=0 stackId=1 mSession=Session{6d3f821 3107:u0a10027} mClient=android.os.BinderProxy@99359ba
+    mOwnerUid=10027 mShowToOwnerOnly=true package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(1634x2560) gr=#800033 ty=2013 fl=#318 fmt=2 wanim=0x10302ea}
+    Requested w=1634 h=2560 mLayoutSeq=17049
+    mIsImWindow=false mIsWallpaper=true mIsFloatingLayer=true mWallpaperVisible=false
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21000+0=21000 mLastLayer=21000
+    mToken=WindowToken{4a9ea53 android.os.Binder@51e6cb0}
+    mRootToken=WindowToken{4a9ea53 android.os.Binder@51e6cb0}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=true
+    mSeq=0 mSystemUiVisibility=0x0
+    Offsets x=-65 y=0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.163}
+    mHasSurface=true mShownFrame=[-65.0,0.0][1569.0,2560.0] isReadyForDisplay()=false
+    mFrame=[0,0][1634,2560] last=[0,0][1634,2560]
+    mSystemDecorRect=[65,0][1505,2560] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2560] parent=[0,0][1440,2560]
+        display=[-10000,-10000][10000,10000] overscan=[0,0][1440,2560]
+        content=[0,0][1440,2560] visible=[0,84][1440,2392]
+        decor=[0,0][1440,2560]
+        outset=[0,0][1440,2560]
+    Cur insets: overscan=[0,0][194,0] content=[0,0][194,0] visible=[0,84][194,168] stable=[0,84][194,168] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][194,0] content=[0,0][194,0] visible=[0,84][194,168] stable=[0,84][194,168] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{f03f90 com.android.systemui.ImageWallpaper}:
+      mSurface=Surface(name=com.android.systemui.ImageWallpaper)
+      mDrawState=HAS_DRAWN mLastHidden=true
+      Surface: shown=false layer=21000 alpha=1.0 rect=(-65.0,0.0) 1634.0 x 2560.0
+    mLastFreezeDuration=+3s605ms
+    mWallpaperX=0.33333334 mWallpaperY=0.5
+    mWallpaperXStep=0.33333334 mWallpaperYStep=1.0
+
+  mCurConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.163}
+  mHasPermanentDpad=false
+  mCurrentFocus=Window{7153fcd u0 com.spotify.music/com.spotify.music.MainActivity}
+  mFocusedApp=AppWindowToken{a9de827 token=Token{70f0ae6 ActivityRecord{89e1541 u0 com.spotify.music/.MainActivity t1020}}}
+  mInputMethodTarget=Window{c3ba69d u0 com.spotify.music/com.spotify.loginflow.LoginActivity}
+  mInTouchMode=true mLayoutSeq=17066
+  mLastDisplayFreezeDuration=+158ms due to Window{fa7ec1b u0 NavigationBar}
+  mSystemDecorLayer=161000 mScreenRect=[0,0][1440,2560]
+  mLastStatusBarVisibility=0x40008700
+  mWallpaperTarget=null
+  mLastWallpaperX=0.33333334 mLastWallpaperY=0.5
+  mSystemBooted=true mDisplayEnabled=true
+  mTransactionSequence=22496
+  mDisplayFrozen=false windows=0 client=false apps=0 waitingForConfig=false
+  mRotation=0 mAltOrientation=false
+  mLastWindowForcedOrientation=-1 mForcedAppOrientation=1
+  mDeferredRotationPauseCount=0
+  Animation settings: disabled=false window=1.0 transition=1.0 animator=1.0
+  mTraversalScheduled=false
+ mSkipAppTransitionAnimation=false
+  mLayoutToAnim:
+    mNextAppTransition=TRANSIT_UNSET
+    mAppTransitionState=APP_STATE_IDLE
+
+2019-10-25 23:45:32,526:DEBUG:Device:Current activity: com.spotify.music
+2019-10-25 23:45:32,601:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2019-10-25 23:45:32,681:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2019-10-25 23:45:32,682:DEBUG:Scripts:Running hook before_close on device nexus6p (ENU7N15C03000145, Android 6.0, API level 23)
+args: (u'ENU7N15C03000145', 'com.spotify.music')
+kwargs: {}
+2019-10-25 23:45:32,689:INFO:Python2:before_close.py
+2019-10-25 23:45:32,690:DEBUG:Python2:before_close.py returned None
+2019-10-25 23:45:33,523:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "am force-stop com.spotify.music" returned: 
+
+2019-10-25 23:45:33,595:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2019-10-25 23:45:33,662:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2019-10-25 23:45:33,663:DEBUG:Scripts:Running hook after_run on device nexus6p (ENU7N15C03000145, Android 6.0, API level 23)
+args: ()
+kwargs: {}
+2019-10-25 23:45:33,666:INFO:Python2:after_run.py
+2019-10-25 23:45:33,740:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "shell am start -n com.spotify.music/.MainActivity" returned: 
+/system/bin/sh: shell: not found
+
+2019-10-25 23:45:33,837:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:45:34,940:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:45:36,040:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:45:37,147:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:45:38,259:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:45:39,358:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:45:40,461:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:45:41,581:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:45:42,683:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:45:43,797:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:45:44,907:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:45:46,011:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:45:47,118:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:45:48,227:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:45:49,341:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:45:50,448:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:45:51,566:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:45:52,677:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:45:53,787:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:45:54,896:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:45:56,007:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:45:57,122:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:45:58,230:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:45:59,342:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:00,454:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:01,561:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:02,666:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:03,779:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:04,879:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:05,987:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:07,102:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:08,214:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:09,342:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:10,455:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:11,578:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:12,699:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:13,821:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:14,937:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:16,061:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:17,176:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:18,287:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:19,402:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:20,514:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:21,640:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:22,760:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:23,882:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:24,998:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:26,116:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:27,208:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:28,316:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:29,441:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:30,558:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:31,675:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:32,801:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:33,919:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:35,006:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:36,122:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:37,241:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:38,356:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:39,476:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:40,595:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:41,677:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:42,766:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:43,853:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:44,953:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:46,078:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{8559e00 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+
+2019-10-25 23:46:47,158:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=null
+
+2019-10-25 23:46:48,238:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys window windows | grep mCurrentFocus" returned: 
+  mCurrentFocus=Window{847e407 u0 com.spotify.music/com.spotify.music.MainActivity}
+
+2019-10-25 23:46:54,052:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "input tap 1380 180" returned: 
+
+2019-10-25 23:46:54,706:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "input roll 0 25" returned: 
+
+2019-10-25 23:46:55,504:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "input tap 730 1080" returned: 
+
+2019-10-25 23:46:56,282:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "input tap 730 1080" returned: 
+
+2019-10-25 23:46:57,079:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "input tap 730 1380" returned: 
+
+2019-10-25 23:46:57,879:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "input roll 0 -5" returned: 
+
+2019-10-25 23:46:58,631:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "input tap 1170 410" returned: 
+
+2019-10-25 23:46:59,415:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "input tap 1170 770" returned: 
+
+2019-10-25 23:46:59,416:DEBUG:Python2:after_run.py returned None
+2019-10-25 23:46:59,418:INFO:Profilers:Collecting results
+2019-10-25 23:46:59,489:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2019-10-25 23:46:59,561:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2019-10-25 23:46:59,562:DEBUG:PluginHandler:Trepn: nexus6p (ENU7N15C03000145, Android 6.0, API level 23): Collecting data
+2019-10-25 23:46:59,641:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "ls /storage/emulated/0/trepn/ | grep \.db" returned: 
+Trepn_2019.10.25_225106.db
+Trepn_2019.10.25_225106.db-shm
+Trepn_2019.10.25_225106.db-wal
+Trepn_2019.10.25_225158.db
+Trepn_2019.10.25_225314.db
+Trepn_2019.10.25_225431.db
+Trepn_2019.10.25_225548.db
+Trepn_2019.10.25_234440.db
+
+2019-10-25 23:47:00,321:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "am broadcast -a com.quicinc.trepn.export_to_csv -e com.quicinc.trepn.export_db_input_file Trepn_2019.10.25_234440.db -e com.quicinc.trepn.export_csv_output_file ENU7N15C03000145_Trepn_2019.10.25_234440.csv" returned: 
+Broadcasting: Intent { act=com.quicinc.trepn.export_to_csv (has extras) }
+Broadcast completed: result=0
+
+2019-10-25 23:47:03,514:DEBUG:NativeURLExperiment:Sleeping for 500 milliseconds
+2019-10-25 23:47:04,111:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2019-10-25 23:47:04,213:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2019-10-25 23:47:04,311:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2019-10-25 23:47:04,413:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2019-10-25 23:47:04,414:INFO:NativeURLExperiment:Device: nexus6p (ENU7N15C03000145, Android 6.0, API level 23)
+2019-10-25 23:47:04,415:INFO:Profilers:Loading
+2019-10-25 23:47:04,514:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2019-10-25 23:47:04,615:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "dumpsys battery unplug" returned: 
+
+2019-10-25 23:47:04,712:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2019-10-25 23:47:04,808:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2019-10-25 23:47:04,809:DEBUG:Scripts:Running hook before_experiment on device nexus6p (ENU7N15C03000145, Android 6.0, API level 23)
+args: ()
+kwargs: {}
+2019-10-25 23:47:04,816:INFO:Python2:before_experiment.py
+2019-10-25 23:47:04,817:DEBUG:Python2:before_experiment.py returned None
+2019-10-25 23:47:04,819:INFO:NativeURLExperiment:APK: com.spotify.music.apk
+2019-10-25 23:47:04,819:INFO:Profilers:Setting output
+2019-10-25 23:47:04,819:DEBUG:PluginHandler:Trepn: Setting output: /home/ubuntu/dev/android-runner/spotify/output/2019.10.25_234419/data/nexus6p/homeubuntudevcomspotifymusicapk/trepn/
+2019-10-25 23:47:04,820:INFO:NativeURLExperiment:Run 1 of 2
+2019-10-25 23:47:04,940:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "logcat -c" returned: 
+
+2019-10-25 23:47:04,941:INFO:NativeURLExperiment:Logcat cleared
+2019-10-25 23:47:05,022:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2019-10-25 23:47:05,097:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2019-10-25 23:47:05,098:DEBUG:Scripts:Running hook before_run on device nexus6p (ENU7N15C03000145, Android 6.0, API level 23)
+args: ()
+kwargs: {}
+2019-10-25 23:47:05,105:INFO:Python2:before_run.py
+2019-10-25 23:47:05,106:DEBUG:Python2:before_run.py returned None
+2019-10-25 23:47:05,884:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "am start -a android.intent.action.VIEW -d spotify:track:71PgUGm7hT3jpj4HeK7jbQ" returned: 
+Starting: Intent { act=android.intent.action.VIEW dat=spotify:track:71PgUGm7hT3jpj4HeK7jbQ }
+Warning: Activity not started, its current task has been brought to the front
+
+2019-10-25 23:47:11,471:DEBUG:ExperimentRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2019-10-25 23:47:11,544:ERROR:root:Experiment stopped by user. To continue, add progress file argument to experiment startup: --progress /home/ubuntu/dev/android-runner/spotify/output/2019.10.25_234419/progress.xml

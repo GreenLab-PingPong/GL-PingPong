@@ -1,0 +1,45 @@
+<experiment>
+  <configHash>aa25a980bc6043add40967d50373463f</configHash>
+  <outputDir>/home/ubuntu/dev/android-runner/spotify/output/2019.10.25_235208/</outputDir>
+  <subjects>
+    <subject>
+      <device>nexus6p</device>
+      <path>/home/ubuntu/dev/com.spotify.music.apk</path>
+      <nativeurl>spotify:track:0J9yIH0Fm2IZvhsMPP4d4N</nativeurl>
+      <aggregated>0</aggregated>
+    </subject>
+    <subject>
+      <device>nexus6p</device>
+      <path>/home/ubuntu/dev/com.spotify.music.apk</path>
+      <nativeurl>spotify:track:71PgUGm7hT3jpj4HeK7jbQ</nativeurl>
+      <aggregated>0</aggregated>
+    </subject>
+  </subjects>
+  <runsToRun>
+    <run runId="0">
+      <device>nexus6p</device>
+      <path>/home/ubuntu/dev/com.spotify.music.apk</path>
+      <nativeurl>spotify:track:0J9yIH0Fm2IZvhsMPP4d4N</nativeurl>
+      <runCount>1</runCount>
+    </run>
+    <run runId="1">
+      <device>nexus6p</device>
+      <path>/home/ubuntu/dev/com.spotify.music.apk</path>
+      <nativeurl>spotify:track:71PgUGm7hT3jpj4HeK7jbQ</nativeurl>
+      <runCount>1</runCount>
+    </run>
+    <run runId="2">
+      <device>nexus6p</device>
+      <path>/home/ubuntu/dev/com.spotify.music.apk</path>
+      <nativeurl>spotify:track:0J9yIH0Fm2IZvhsMPP4d4N</nativeurl>
+      <runCount>2</runCount>
+    </run>
+    <run runId="3">
+      <device>nexus6p</device>
+      <path>/home/ubuntu/dev/com.spotify.music.apk</path>
+      <nativeurl>spotify:track:71PgUGm7hT3jpj4HeK7jbQ</nativeurl>
+      <runCount>2</runCount>
+    </run>
+  </runsToRun>
+  <runsDone/>
+</experiment>

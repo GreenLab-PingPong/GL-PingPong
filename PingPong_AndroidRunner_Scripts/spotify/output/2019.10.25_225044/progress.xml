@@ -1,0 +1,45 @@
+<experiment>
+  <configHash>1d0f7e4cbf85059d418a39cfc8c1e753</configHash>
+  <outputDir>/home/ubuntu/dev/android-runner/youtube/output/2019.10.25_225044/</outputDir>
+  <subjects>
+    <subject>
+      <device>nexus6p</device>
+      <path>/home/ubuntu/dev/com.google.android.youtube.apk</path>
+      <nativeurl>https://www.youtube.com/watch?v=ooZR4LSuppk</nativeurl>
+      <aggregated>0</aggregated>
+    </subject>
+    <subject>
+      <device>nexus6p</device>
+      <path>/home/ubuntu/dev/com.google.android.youtube.apk</path>
+      <nativeurl>https://www.youtube.com/watch?v=mHwUanGnrJc</nativeurl>
+      <aggregated>0</aggregated>
+    </subject>
+  </subjects>
+  <runsToRun>
+    <run runId="0">
+      <device>nexus6p</device>
+      <path>/home/ubuntu/dev/com.google.android.youtube.apk</path>
+      <nativeurl>https://www.youtube.com/watch?v=ooZR4LSuppk</nativeurl>
+      <runCount>1</runCount>
+    </run>
+    <run runId="1">
+      <device>nexus6p</device>
+      <path>/home/ubuntu/dev/com.google.android.youtube.apk</path>
+      <nativeurl>https://www.youtube.com/watch?v=mHwUanGnrJc</nativeurl>
+      <runCount>1</runCount>
+    </run>
+    <run runId="2">
+      <device>nexus6p</device>
+      <path>/home/ubuntu/dev/com.google.android.youtube.apk</path>
+      <nativeurl>https://www.youtube.com/watch?v=ooZR4LSuppk</nativeurl>
+      <runCount>2</runCount>
+    </run>
+    <run runId="3">
+      <device>nexus6p</device>
+      <path>/home/ubuntu/dev/com.google.android.youtube.apk</path>
+      <nativeurl>https://www.youtube.com/watch?v=mHwUanGnrJc</nativeurl>
+      <runCount>2</runCount>
+    </run>
+  </runsToRun>
+  <runsDone/>
+</experiment>

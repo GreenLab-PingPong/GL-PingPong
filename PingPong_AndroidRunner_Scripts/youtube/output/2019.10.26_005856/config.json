@@ -1,0 +1,41 @@
+{
+  "type": "native",
+  "nativetype" : "youtube",
+  "devices": ["nexus6p"],
+  "replications": 10,
+  "duration": 210000,
+  "monkeyrunner_path": "/home/ubuntu/Android/Sdk/tools/bin/monkeyrunner",
+  "paths": [
+    "/home/ubuntu/dev/com.google.android.youtube.apk"
+  ],
+  "urls" : [
+    "https://www.youtube.com/watch?v=ooZR4LSuppk",
+    "https://www.youtube.com/watch?v=1p3jBuvu0Ao", 
+    "https://www.youtube.com/watch?v=miVRaoR_8xQ",
+    "https://www.youtube.com/watch?v=zhp0qui73cc",
+    "https://www.youtube.com/watch?v=8aWX54tdi-g"
+  ],
+  "profilers": {
+    "trepn": {
+      "subject_aggregation" : "default",
+      "experiment_aggregation" : "default",
+      "sample_interval": 100,
+      "data_points": ["battery_power"]
+    }
+},
+  "scripts": {
+    "before_experiment": "Scripts/before_experiment.py",
+    "before_run": "Scripts/before_run.py",
+    "after_launch": "Scripts/after_launch.py",
+    "interaction": [
+      {
+      "type": "python2",
+      "path": "Scripts/interaction.py"
+      }
+    ],
+    "before_close": "Scripts/before_close.py",
+    "after_run": "Scripts/after_run.py",
+    "after_experiment": "Scripts/after_experiment.py"
+  },
+  "time_between_run": 500
+}
