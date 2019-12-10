@@ -26,6 +26,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Instalation and usage
 
+
+#### Running the experiment
 You first require this Package.
 
 - Android Runner: Provides the automation of the experiment execution in Android devices. Forked from [S2-group](https://github.com/S2-group/android-runner) repostiory. 
@@ -38,7 +40,7 @@ After succesfull run you can continue with Data Analysis.
 
 
 
-Data Analysis
+####Data Analysis
 
 After running the experiment you will get the Trepn Output in the form of csv files which you can found at 'PingPong_AndroidRunner_Scripts/youtube/output/' and 'PingPong_AndroidRunner_Scripts/spotify/output/' for youtube and spotify respectively.
 
