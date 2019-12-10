@@ -14,7 +14,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### System Requirement
 
 - Linux distribution -- Ubuntu 18.04 LTS
-- Android device -- LG Nexus 5X -- Android OS v8.1.0
+- Android device --  Huawei Nexus 6P non-rooted on Android Version 6.00
 - Android Studio SDK
 - Python v2.7
 - JDK v8
@@ -48,8 +48,6 @@ Use the python script [AggregateResults.py](PingPong_R/AggregateResults.py ) whi
 
 The second step is to do the descriptive analysis to know the data better and check whether the data is normal or not and finally check the the hypothesis. You can use [PingPong.R](PingPong_R/PingPong.R )
 file to perform all these steps.
-
-
 
 
 ## Authors 
