@@ -1,7 +1,7 @@
 
 # The impact of media quality on the energy consumption of Android streaming apps; Replication Package (Green Lab 2019-2020)
 
-This project refers to the course assignment ``The impact of media quality on the energyconsumption of Android streaming apps`` of the 2019-2020 edition of the [Vrije Universiteit Amsterdam](https://www.vu.nl/en), [Computer Science Master Degree](https://masters.vu.nl/en/programmes/computer-science-uva/index.aspx), [Green Lab](https://studiegids.vu.nl/en/Master/2018-2019/computer-science/X_418158) course. This repository contains all information required to replicate the experimentation, described by the instructions in this README. 
+This project refers to the course assignment ``The impact of media quality on the energy consumption of Android streaming apps`` of the 2019-2020 edition of the [Vrije Universiteit Amsterdam](https://www.vu.nl/en), [Computer Science Master Degree](https://masters.vu.nl/en/programmes/computer-science-uva/index.aspx), [Green Lab](https://studiegids.vu.nl/en/Master/2018-2019/computer-science/X_418158) course. This repository contains all information required to replicate the experimentation, described by the instructions in this README. 
 
 ## Project Goal
 
@@ -40,7 +40,7 @@ After succesfull run you can continue with Data Analysis.
 
 
 
-####Data Analysis
+#### Data Analysis
 
 After running the experiment you will get the Trepn Output in the form of csv files which you can found at 'PingPong_AndroidRunner_Scripts/youtube/output/' and 'PingPong_AndroidRunner_Scripts/spotify/output/' for youtube and spotify respectively.
 
